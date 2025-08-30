@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*
+    EMHTML E ID = EM CSS E # (so pode um elemento)
+    EM HTML E CLASS = EM CSS E . (pode varios elemntos)
+*/
+
+body{
+    background-color: rgb(202, 241, 202);
+
+}
+
+h1{
+    color: darkolivegreen;
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h2{
+    color: darkseagreen;
+}
+
+.basico{
+    color: rgb(141, 199, 83);
+}
+
+.intermediario{
+    color: yellow;
+
+}
+
+.avansado{
+    color: brown;
+
+}
