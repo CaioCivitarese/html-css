@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 17px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+[type="button"]{
+    color: red;
+}
+div{
+    background-color: rgba(200,200,200);
+}
+h2{
+    color: black;
+}
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url(imagem/landscape.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.566);
+    background-position: center;
+    background-size: cover;
+    
+}
