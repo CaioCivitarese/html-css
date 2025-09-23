@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Contener{
+    display: flex;
+}
+
+.d1{
+    height: 90%;
+    background-color: blue;
+}
+.d2{
+    width: 50%;
+    height: 300px;
+    background-color: red;
+}
+.d3{
+    width: 50%;
+    height: 300px;
+    background-color: green;
+}
