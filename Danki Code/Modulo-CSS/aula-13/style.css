@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #29282E;
+}
+.form{
+    text-align: center;
+    padding: 200px;
+}
+
+.form > img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.form input[type=email],
+.form input[type=text]{
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 30px;
+    border: 1px  solid #ccc;
+}
+
+.form textarea{ 
+    padding: 10px;
+    resize: vertical;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+}
+
+.form input[type=submit]{
+    padding-left: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(106, 41, 167);
+    height: 35px;
+    border: 0;
+}
