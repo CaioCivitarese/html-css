@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Box{
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+}
+
+@media screen and (max-width: 768px){
+    .Box{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .Box{
+        background-color: red;
+    }
+    
+}
