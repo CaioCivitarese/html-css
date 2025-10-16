@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contaner{
+    display: flex;
+    flex-wrap: border-box;
+}
+
+.Box{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: cyan;
+}
+
+@media screen and (min-width: 768px){
+    .Box{
+        width: 33,3%;
+    }
+}
