@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revição Conteudo: Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+    </div>
+    <div>
+        
+        <div class="DadosPessoais">
+            <form action="Pessoais">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <div class="pessoas">
+                        <p>Nome:</p>
+                        <input type="text" name="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="endereço">
+                        <p>Endereço:</p>
+                        <input type="text" name="nome" placeholder="Digite seu endereço">
+                    </div>
+                    <div class="cidade">
+                        <p>Cidade:</p>
+                        <input type="text" name="nome" placeholder="Digite sua cidade">
+                    </div>
+                    <div>
+                        <p>Estado</p>
+                        <select>
+                            <option disabled selected>Qual Seu Estado</option>
+                            <option>Rio de Janeiro</option>
+                            <option>São Paulo</option>
+                            <option>Santos</option>
+                            <option>Belo Horizonte</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div>
+        <form action="DadosProficionais">
+            <fieldset>
+                <legend>Dados Proficionais</legend>
+                <div class="NaturezaDoCargo">
+                    <fieldset class="ListaDeCargos">
+                        <legend>Natureza d Cargo</legend>
+                        <div class="Cargos">
+                            <input type="radio" name="Cargo" value="">
+                            <span>Gerêcia</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="radio" name="Cargo" value="">
+                            <span>Finaciro</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="radio" name="Cargo" value="">
+                            <span>Recepção</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="radio" name="Cargo" value="">
+                            <span>Adimistrativo</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="radio" name="Cargo" value="">
+                            <span>Juridico</span>
+                        </div>
+                    </fieldset>
+                    <fieldset class="AreaDeInteresse">
+                        <legend>Área de Interesse</legend>
+                        <div class="Cargos">
+                            <input type="checkbox" name="Area" value="">
+                            <span>Computação</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="checkbox" name="Area" value="">
+                            <span>Biologia</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="checkbox" name="Area" value="">
+                            <span>Meio Ambiente</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="checkbox" name="Area" value="">
+                            <span>Engenharia</span>
+                        </div>
+                        <div class="Cargos">
+                            <input type="checkbox" name="Area" value="">
+                            <span>História</span>
+                        </div>
+                    </fieldset>
+                </div>
+            </fieldset>
+        </form>
+        <div>
+            <button class="Enviar">Enviar</button>
+            <button>Limpar</button>
+        </div>
+    </div>
+</body>
+</html>

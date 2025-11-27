@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+h1{
+ margin-left: 2%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin-left: 2%;
+}
+
+form fieldset{
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 5%;
+    height: 260px;
+    width: 400px;
+}
+
+div > .pessoais{
+    display: inline-block;
+}
+
+form legend{
+    text-align: left;
+    padding-left: 3%;
+    color: black;
+    font-weight: bolder;
+}
+
+form > .pessoas{
+    display: inline-block;
+}
+
+form p{
+    padding: 10px;
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+form select{
+    margin-left: 20px;
+    height: 30px;
+    width:150px;
+}
+
+.NaturezaDoCargo{
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.ListaDeCargos{
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.Cargos{
+    margin-left: 5px;
+}
+
+.AreaDeInteresse{
+    height: 110px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.Enviar{
+    margin: 10px 2px 10px 330px;
+}
