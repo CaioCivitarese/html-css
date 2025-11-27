@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.teste, .teste1, .teste2{
+    width: 300px;
+    height: 30px;
+    /*
+    background-color: #ccc;
+    */
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+.teste1{
+    background-color: grey;
+
+}
+.teste2{
+    background-color: blue;
+}
+
+/*
+.teste:hover{
+    background-color: red;
+}
+
+.teste:hover ,.teste1, .teste2{
+    vertical-align: top;
+}
+*/
+
+/*
+
+Active serve para quando estamos com o mouse pressionado em cima do nosso elemento 
+
+.teste:active{
+    background-color: black;
+}
+*/
+
+/*
+
+Focus serve para quando clicamos e focamos o nosso elemento do formulário.
+
+textarea, imput
+
+.teste:focus{
+    background-color: red;
+}
+
+.textarea1{
+    display: block;
+    width: 600px;
+    height: 400px;
+}
+*/
+
+/*
+
+Podemos utilizar isso para modar a cor do link
+
+.link1:visited{
+    color: purple;
+}
+
+
+.link1:link{
+    color:orange;
+}
+*/
