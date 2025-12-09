@@ -21,6 +21,7 @@ label{
     line-height: 40px;
 */
 
+/*
 form{
     text-align: center;
     background-color: #ccc;
@@ -39,4 +40,21 @@ form select{
 }
 select::-ms-expand{
     display: none;
+}
+*/
+
+input[type=checkbox]{
+    display: none;
+}
+
+label{
+    margin: 0 60px;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+input[type=checkbox]:checked + label{
+    background-color: red;
 }
